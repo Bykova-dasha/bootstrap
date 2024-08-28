@@ -1,0 +1,321 @@
+
+:root {
+    --font-family: "Quicksand", sans-serif;
+    --second-family: "Poppins", sans-serif;
+    --third-family: "Nunito", sans-serif;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+}
+
+.nunito {
+    font-family: "Nunito", sans-serif;
+}
+
+
+body{
+    background: #0e0e0e;
+   padding-top: 72px;
+    overflow: hidden;
+}
+
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1240px;
+    }
+}
+
+
+.nav-link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #e2e2e2;
+}
+@media (max-width: 767px) {
+    .contact{
+        display: none;
+    }
+}
+
+.contact {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #e2e2e2;
+    border: 1px solid #e2e2e2;
+    border-radius: 24px;
+    height: 48px;
+    text-decoration: none;
+    padding: 12px 50px 12px 50px;
+
+
+}
+.nav-item{
+    gap: 50px;
+}
+
+.nav-item,.nav-link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #e2e2e2;
+ padding-bottom: 4px;
+
+}
+.nav-item,.nav-link:hover{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #e2e2e2;
+    padding-bottom: 2px;
+    transition: 0.3s;
+
+}
+
+
+.boll_1{
+    border-radius: 100%;
+    fill: linear-gradient(180deg, rgba(68, 133, 255, 0.8) 0%, #377dff 100%);
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 433px;
+    left: 94px;
+
+}
+
+.boll_2{
+    border-radius: 100%;
+    fill: linear-gradient(180deg, #ff8e8e 0%, #f62424 100%);
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 285px;
+    right: -8px;
+
+}
+
+.boll_3{
+    border-radius: 100%;
+    fill: linear-gradient(180deg, rgba(68, 133, 255, 0.8) 0%, #377dff 100%);
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 607px;
+    right:  194px;
+
+}
+
+.boll_4{
+    border-radius: 100%;
+    fill: linear-gradient(180deg, #ff8e8e 0%, #f62424 100%);
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 811px;
+    left: 299px;
+
+}
+
+.make_dream{
+    h1,p{
+        color: #e2e2e2;
+
+    }
+    .container{
+        max-width: 767px;
+    }
+    h1{
+        font-family: var(--third-family);
+        font-weight: 800;
+        font-size: 64px;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #e2e2e2;
+        padding-top: 68px;
+        text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+    }
+
+    p{
+        font-family: var(--third-family);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #e2e2e2;
+        opacity: 0.6;
+        margin-top: 24px;
+    }
+
+    .btn{
+        border-radius: 24px;
+        padding: 12px 50px;
+        width: 201px;
+        height: 48px;
+        box-shadow: 0 4px 8px 0 rgba(55, 125, 255, 0.5);
+        background: #e2e2e2;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #0e0e0e;
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+}
+.history{
+    position: relative;
+    .container{
+        max-width: 985px;
+        height: 615px;
+    }
+}
+
+.element_1{
+    position: absolute;
+    top: 706px;
+    left: 1093px;
+    z-index: -1;
+}
+
+
+.history .bg_team{
+   background-image: url("/images/bg_team.svg");
+    border-radius: 50px;
+    width: 739px;
+    height: 501px;
+  margin:59px 124px 63px ;
+}
+
+.history{
+    .response{
+        display: flex;
+        position: absolute;
+    }
+}
